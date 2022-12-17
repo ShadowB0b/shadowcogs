@@ -1,0 +1,13 @@
+{
+    "author": ["Kuro"],
+    "description": "Fake moderation commands for fun!",
+    "disabled": false,
+    "end_user_data_statement": "This cog does not store any end user data.",
+    "hidden": false,
+    "install_msg": "Thanks for installing `FakeMod`!\nGet started with `[p]fakemodset`.\nThis cog has docs! Check it out at <https://kuro-cogs.readthedocs.io/en/latest/cogs/fakemod.html>.",
+    "name": "FakeMod",
+    "requirements": ["emoji"],
+    "short": "Fake moderation commands.",
+    "tags": ["ben", "fake", "fakemod", "kik", "myut", "worn"],
+    "type": "COG"
+}

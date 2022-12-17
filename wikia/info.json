@@ -1,0 +1,9 @@
+{
+  "author" : ["Jintaku"],
+  "bot_version": [3,0,0],
+  "install_msg" : "Get your glasses on, nerd! It's wiki time.",
+  "short" : "Displays wikia articles",
+  "description" : "Displays article summaries from wikia websites",
+  "tags" : ["wikia", "information"],
+  "hidden" : false
+}

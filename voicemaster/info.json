@@ -1,0 +1,10 @@
+{
+    "author": ["Crafter#0001"],
+    "description": "Allows for administration of voice channels",
+    "install_msg": "Thanks for installing voicemaster",
+    "permissions" : ["send_messages", "manage_channels", "mute_members", "deafen_members"],
+    "hidden": false,
+    "disabled": false,
+    "short": "Moderation VCs",
+    "end_user_data_statement": "This cog does not store user data of any sort"
+}

@@ -1,0 +1,15 @@
+{
+  "author": [
+    "Jay"
+  ],
+  "min_bot_version": "3.4.0",
+  "description": "makes you regret saying it",
+  "hidden": false,
+  "install_msg": "Jay is the shit",
+  "short": "Dad joke bot",
+  "end_user_data_statement": "This cog does not store any End User Data",
+  "tags": [
+    
+    "tools"
+  ]
+}

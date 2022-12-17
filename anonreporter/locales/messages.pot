@@ -1,0 +1,46 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-09-30 12:29+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: redgettext 3.3\n"
+
+#: anonreporter\anonreporter.py:42
+msgid "Report channel set to {channel}"
+msgstr ""
+
+#: anonreporter\anonreporter.py:52
+msgid "Global reports channel set to {channel} in {guild}"
+msgstr ""
+
+#: anonreporter\anonreporter.py:68
+msgid "Send your report here. You have 120s."
+msgstr ""
+
+#: anonreporter\anonreporter.py:74
+msgid "Sending a DM failed. Make sure you allow DMs from the bot."
+msgstr ""
+
+#: anonreporter\anonreporter.py:78
+msgid "Action timed out."
+msgstr ""
+
+#: anonreporter\anonreporter.py:91 anonreporter\anonreporter.py:102
+msgid ""
+"**New anonymous report:**\n"
+"{report}"
+msgstr ""
+
+#: anonreporter\anonreporter.py:95
+msgid "Text to short or to long."
+msgstr ""
+
+#: anonreporter\anonreporter.py:106
+msgid "Anonreport is not configured correctly."
+msgstr ""

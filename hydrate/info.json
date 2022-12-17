@@ -1,0 +1,16 @@
+{
+  "author": [
+    "jay_"
+  ],
+  "min_bot_version": "0.0.1",
+  "description": "reminds you to hydrate",
+  "hidden": false,
+  "install_msg": "hydrate yo dry ass",
+  "short": "water",
+  "end_user_data_statement": "This cog does not store any End User Data",
+  "tags": [
+    "jay",
+    "utils",
+    "tools"
+  ]
+}

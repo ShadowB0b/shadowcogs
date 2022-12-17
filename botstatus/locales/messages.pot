@@ -1,0 +1,91 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-09-30 12:29+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: redgettext 3.3\n"
+
+#: botstatus\botstatus.py:80 botstatus\botstatus.py:89
+#: botstatus\botstatus.py:98 botstatus\botstatus.py:107
+#: botstatus\botstatus.py:121 botstatus\botstatus.py:130
+#: botstatus\botstatus.py:139 botstatus\botstatus.py:148
+#: botstatus\botstatus.py:162 botstatus\botstatus.py:171
+#: botstatus\botstatus.py:180 botstatus\botstatus.py:189
+#: botstatus\botstatus.py:203 botstatus\botstatus.py:212
+#: botstatus\botstatus.py:221 botstatus\botstatus.py:230
+msgid "The chracter limit for status messages is 128."
+msgstr ""
+
+#: botstatus\botstatus.py:84
+msgid "Status set to ``Online | Playing {text}``"
+msgstr ""
+
+#: botstatus\botstatus.py:93
+msgid "Status set to ``Idle | Playing {text}``"
+msgstr ""
+
+#: botstatus\botstatus.py:102
+msgid "Status set to ``DND | Playing {text}``"
+msgstr ""
+
+#: botstatus\botstatus.py:111
+msgid "Status set to ``Offline | Playing {text}``"
+msgstr ""
+
+#: botstatus\botstatus.py:125
+msgid "Status set to ``Online | Listening to {text}``"
+msgstr ""
+
+#: botstatus\botstatus.py:134
+msgid "Status set to ``Idle | Listening to {text}``"
+msgstr ""
+
+#: botstatus\botstatus.py:143
+msgid "Status set to ``DND | Listening to {text}``"
+msgstr ""
+
+#: botstatus\botstatus.py:152
+msgid "Status set to ``Offline | Listening to {text}``"
+msgstr ""
+
+#: botstatus\botstatus.py:166
+msgid "Status set to ``Online | Watching {text}``"
+msgstr ""
+
+#: botstatus\botstatus.py:175
+msgid "Status set to ``Idle | Watching {text}``"
+msgstr ""
+
+#: botstatus\botstatus.py:184
+msgid "Status set to ``DND | Watching {text}``"
+msgstr ""
+
+#: botstatus\botstatus.py:193
+msgid "Status set to ``Offline | Watching {text}``"
+msgstr ""
+
+#: botstatus\botstatus.py:207
+msgid "Status set to ``Online | Competing {text}``"
+msgstr ""
+
+#: botstatus\botstatus.py:216
+msgid "Status set to ``Away | Competing {text}``"
+msgstr ""
+
+#: botstatus\botstatus.py:225
+msgid "Status set to ``DND | Competing {text}``"
+msgstr ""
+
+#: botstatus\botstatus.py:234
+msgid "Status set to ``Offline | Competing {text}``"
+msgstr ""
+
+#: botstatus\botstatus.py:240
+msgid "Saved botstatus has been cleared."
+msgstr ""

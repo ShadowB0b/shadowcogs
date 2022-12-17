@@ -1,0 +1,11 @@
+{
+    "author" : ["kagami#6142, Wyn"],
+    "name" : "SysInfo",
+    "short" : "Display system information",
+    "description" : "Uses psutil to show various system information for the machine running the bot",
+    "requirements": ["psutil"],
+    "tags" : ["utility", "tools", "system", "info"],
+    "install_msg" : "Thank you for installing SysInfo from RitsuCogs/Wyn-RedV3Cogs.\nCommands are in [sysinfo|sys] group. [p]help sys",
+    "disabled" : false,
+    "end_user_data_statement": "This cog does not persistently store data or metadata about users."
+}

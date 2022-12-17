@@ -1,0 +1,21 @@
+{
+    "author": [
+        "Dav"
+    ],
+    "description": "A different approach to ``[p]casesfor``.",
+    "hidden": false,
+    "install_msg": "Thank you for installing casereader.",
+    "short": "A different approach to ``[p]casesfor``.",
+    "tags": [
+        "members",
+        "mod",
+        "moderation",
+        "warnings",
+        "checks",
+        "tools",
+        "modlog",
+        "cases"
+    ],
+    "end_user_data_statement": "This cog does not store end user data.",
+    "max_bot_version": "3.5.0.dev0"
+}
