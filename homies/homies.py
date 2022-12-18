@@ -41,6 +41,8 @@ import os
 from PIL import Image
 
 
+base_path="home\\cky37373\\lib\\site-packages\\redbot\\cogs\\"
+
 class Homies(commands.Cog):
     """
     Lets make commands for all the homies
@@ -60,8 +62,8 @@ class Homies(commands.Cog):
         self.options.add_argument('--disable-gpu')  # Last I checked this was necessary.
         self.mol_ind = 0
         self.mol_num = ['1','2','3']
-        self.mol_filepath = 'C:\\Users\\justm\\redenv\\Lib\\site-packages\\redbot\\cogs\\homies\\molly\\molly'
-        self.thrt_filepath = 'C:\\Users\\justm\\redenv\\Lib\\site-packages\\redbot\\cogs\\homies\\throat\\throat'
+        self.mol_filepath = base_path + 'homies\\molly\\molly'
+        self.thrt_filepath = base_path + 'homies\\throat\\throat'
         self.thrt_ind = 9
         self.thrt_num = ['1','2','3','4','5','6','7','8','9','10','11']
 
@@ -99,7 +101,7 @@ class Homies(commands.Cog):
     @commands.command()
     async def moony(self, ctx):
         await ctx.send('Standby...')
-        f = 'C:\\Users\\justm\\redenv\\Lib\\site-packages\\redbot\\cogs\\homies\\moony\\moony.gif'
+        f = base_path + 'homies\\moony\\moony.gif'
         with open(f, 'r+') as pic:
             await ctx.send(file=discord.File(f, f))
 
@@ -110,13 +112,13 @@ class Homies(commands.Cog):
         driver = self.driver
         driver.get(self.URL)
         month,day =datetime.datetime.now().month, datetime.datetime.now().day
-        if not exists('C:\\Users\\justm\\redenv\\Lib\\site-packages\\redbot\\cogs\\homies\\pics\\moon_' + str(month) + '_' + str(day) + '.jpg'):
+        if not exists(base_path + 'homies\\pics\\moon_' + str(month) + '_' + str(day) + '.jpg'):
             await ctx.send('You are the first to check the moon phase today, standby so I can download the image.')
             
             
             imgs = driver.find_element(By.XPATH, '//img[@id="moon_image"]')
             url = imgs.get_attribute('src')
-            f = wget.download(url,out='C:\\Users\\justm\\redenv\\Lib\\site-packages\\redbot\\cogs\\homies\\pics\\moon_' + str(month) + '_' + str(day) + '.jpg')
+            f = wget.download(url,out=base_path + 'homies\\pics\\moon_' + str(month) + '_' + str(day) + '.jpg')
             result = True
             if result:
                 with open(f, 'r+') as pic:
@@ -135,7 +137,7 @@ class Homies(commands.Cog):
                 
         else:
             print(f'You are the {str(self.used + 1)} person to use this today')
-            f = 'C:\\Users\\justm\\redenv\\Lib\\site-packages\\redbot\\cogs\\homies\\pics\\moon_' + str(month) + '_' + str(day) + '.jpg'
+            f = base_path + 'homies\\pics\\moon_' + str(month) + '_' + str(day) + '.jpg'
             with open(f, 'r+') as pic:
                 await ctx.send(file=discord.File(f, f))
                 phase = driver.find_element(By.XPATH, '//*[@id="moon_info_table"]/table/tbody/tr[2]/td[2]')
@@ -157,12 +159,12 @@ class Homies(commands.Cog):
         link = driver.find_element(By.XPATH, '//*[@id="map_link"]').get_attribute('href')
 
         month,day =datetime.datetime.now().month, datetime.datetime.now().day
-        f = wget.download(link,out='C:\\Users\\justm\\redenv\\Lib\\site-packages\\redbot\\cogs\\homies\\pics\\moon_' + str(month) + '_' + str(day) + 'landing.tif')
+        f = wget.download(link,out=base_path+'homies\\pics\\moon_' + str(month) + '_' + str(day) + 'landing.tif')
         
            
-        outfile = 'C:\\Users\\justm\\redenv\\Lib\\site-packages\\redbot\\cogs\\homies\\pics\\moon_' + str(month) + '_' + str(day) + 'landing.jpg'
+        outfile = base_path + 'homies\\pics\\moon_' + str(month) + '_' + str(day) + 'landing.jpg'
         try:
-            im = Image.open('C:\\Users\\justm\\redenv\\Lib\\site-packages\\redbot\\cogs\\homies\\pics\\moon_' + str(month) + '_' + str(day) + 'landing.tif')
+            im = Image.open(base_path + 'homies\\pics\\moon_' + str(month) + '_' + str(day) + 'landing.tif')
             im.save(outfile, "JPEG", quality=100)
             
         except Exception as e:
@@ -194,7 +196,7 @@ class Homies(commands.Cog):
         await ctx.send('LMAO get a load of this creature')
         if str(self.thrt_ind + 1) in ['8','9','10','11']:
             ext = '.jpg'
-        await ctx.send(file=discord.File(self.thrt_filepath+self.thrt_num[self.thrt_ind] + ext, self.mol_filepath+self.thrt_num[self.thrt_ind] + ext).)
+        await ctx.send(file=discord.File(self.thrt_filepath+self.thrt_num[self.thrt_ind] + ext, self.mol_filepath+self.thrt_num[self.thrt_ind] + ext))
         if self.thrt_ind + 1 >= len(self.thrt_num):
             self.thrt_ind = 0
         else:
