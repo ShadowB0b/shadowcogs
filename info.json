@@ -1,0 +1,9 @@
+{
+    "author" : ["Jay_"],["Geet"]
+    "install_msg" : "Fuck you",
+    "name" : "shadowcogs",
+    "short" : "Got bussy?",
+    "description" : "buncha bullshit",
+    "min_python_version": [3, 7, 2],
+	"tags": []
+}
